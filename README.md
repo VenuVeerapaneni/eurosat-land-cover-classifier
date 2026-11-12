@@ -52,3 +52,11 @@ The training pipeline and model code in this folder are independently written fo
 ## Classes
 
 AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake.
+
+## Interactive demo
+
+Install dependencies with: python -m pip install -r requirements.txt
+
+Start the local image-upload demo with: python -m streamlit run app.py
+
+A browser page opens where you can select different JPG or PNG satellite patches and view the predicted land-cover class, confidence, and Grad-CAM overlay. Keep the project files together so the app can load outputs/best_model.pt. For meaningful predictions, use satellite imagery similar to EuroSAT's 64x64 RGB patches.
