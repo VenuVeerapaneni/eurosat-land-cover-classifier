@@ -1,0 +1,4 @@
+data/
+outputs/mplconfig/
+__pycache__/
+.venv/
